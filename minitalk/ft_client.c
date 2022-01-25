@@ -28,7 +28,7 @@ static int	pass_chr(pid_t pid, char c)
 			return (-1);
 		bit <<= 1;
 		i++;
-		usleep(1);
+		usleep(100);
 	}
 	return (status);
 }
